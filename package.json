@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-test": "nodemon dev-test"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^26.4.0",
     "nodemon": "^2.0.4"
   }
 }
